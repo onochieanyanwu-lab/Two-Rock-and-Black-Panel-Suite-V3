@@ -1,0 +1,21 @@
+name: Build VST3
+on: [push, workflow_dispatch]
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Build
+        run: cmake --build build --config Release --parallel
+      - name: Collect VST3s
+        shell: bash
+        run: |
+          mkdir out
+          cp -r build/BlackfaceFender_artefacts/Release/VST3/*.vst3 out/
+          cp -r build/TwoRockClassic_artefacts/Release/VST3/*.vst3 out/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AmpSuite-VST3-Windows
+          path: out
