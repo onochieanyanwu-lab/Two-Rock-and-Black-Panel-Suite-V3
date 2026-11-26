@@ -1,0 +1,381 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1010" width="1500" height="1010"><rect width="100%" height="100%" fill="#fbfaf6"/>
+<text x="24" y="30" font-family="Helvetica,Arial,sans-serif" font-size="22" text-anchor="start" fill="#111" font-weight="700">Blackface Fender (AB763 / AA270 family) — circuit referenced by the DSP model</text>
+<text x="24" y="50" font-family="Helvetica,Arial,sans-serif" font-size="12.5" text-anchor="start" fill="#444">Signal path redrawn from the standard blackface vibrato-channel topology; component values are the ones used in AmpCore.h (verify against a scan before building).</text>
+<rect x="20" y="70" width="470" height="450" rx="10" fill="#ffffff" stroke="#9aa" stroke-width="1.2"/>
+<text x="32" y="90" font-family="Helvetica,Arial,sans-serif" font-size="13" text-anchor="start" fill="#234" font-weight="700">① Input stage V1A</text>
+<polyline points="318,180 342,180" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="330" y="174" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">B+ ≈ 285V</text>
+<polyline points="330,180 330,188 337,190.833 323,196.5 337,202.167 323,207.833 337,213.5 323,219.167 330,222 330,230" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="344" y="203" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Rp</text>
+<text x="344" y="216" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">100k</text>
+<circle cx="330" cy="230" r="3" fill="#222"/>
+<circle cx="330" cy="266" r="24" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="330,230 330,254" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="319,254 341,254" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="319,266 324,266" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="328,266 333,266" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="337,266 341,266" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="294,266 319,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="319,278 341,278" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="330,278 330,302" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="360" y="264" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">V1A</text>
+<text x="360" y="277" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#555">12AX7</text>
+<polyline points="330,230 330,230" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="330,230 370,230" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="370,230 381,230" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="389,230 400,230" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="381,219 381,241" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="389,219 389,241" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="400,230 440,230" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="442" y="226" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">to stack</text>
+<circle cx="330" cy="302" r="3" fill="#222"/>
+<polyline points="330,302 330,310 337,312.333 323,317 337,321.667 323,326.333 337,331 323,335.667 330,338 330,346" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="344" y="322" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Rk</text>
+<text x="344" y="335" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">1.5k</text>
+<polyline points="330,346 330,352" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="320,352 340,352" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="324,356 336,356" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="328,360 332,360" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="330,308 366,308" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="366,308 366,321" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="366,329 366,342" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="355,321 377,321" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="355,329 377,329" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="346" y="319" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">+</text>
+<text x="382" y="324" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Ck</text>
+<text x="382" y="337" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">25µF</text>
+<polyline points="366,342 330,342" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="294,266 268,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="222,266 230,266 232.5,273 237.5,259 242.5,273 247.5,259 252.5,273 257.5,259 260,266 268,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="245" y="254" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">Rg 68k</text>
+<polyline points="268,266 268,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="222" cy="266" r="3" fill="#222"/>
+<polyline points="222,266 222,274 229,276.5 215,281.5 229,286.5 215,291.5 229,296.5 215,301.5 222,304 222,312" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="236" y="286" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">RL 1M</text>
+<polyline points="222,312 222,318" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="212,318 232,318" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="216,322 228,322" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="220,326 224,326" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="222,266 182,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="142,266 158,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="166,266 182,266" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="158,255 158,277" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="166,255 166,277" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="162" y="250" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">Cc</text>
+<text x="162" y="292" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111">100nF</text>
+<text x="138" y="260" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="end" fill="#111" font-weight="700">INPUT</text>
+<text x="34" y="490" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-style="italic">Guitar source ≈30k; 68k stopper; Miller C ≈100pF rolls off the top.</text>
+<rect x="510" y="70" width="470" height="450" rx="10" fill="#ffffff" stroke="#9aa" stroke-width="1.2"/>
+<text x="522" y="90" font-family="Helvetica,Arial,sans-serif" font-size="13" text-anchor="start" fill="#234" font-weight="700">② TMB tone stack (exactly the topology the DSP solves)</text>
+<text x="524" y="118" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">from V1A plate</text>
+<polyline points="524,155 550,155 550,275" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="550" cy="155" r="3" fill="#222"/>
+<polyline points="550,155 581,155" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="589,155 620,155" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="581,144 581,166" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="589,144 589,166" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="585" y="139" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">C1</text>
+<text x="585" y="181" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111">250pF</text>
+<polyline points="620,155 660,155" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="660" cy="155" r="3" fill="#222"/>
+<polyline points="660,155 660,163 667,171.667 653,189 667,206.333 653,223.667 667,241 653,258.333 660,267 660,275" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="674" y="183" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">TREBLE</text>
+<text x="674" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">250k</text>
+<polyline points="682,215 668,215" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="668,215 676,211 676,219" fill="#222"/>
+<polyline points="682,215 780,215" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="784" y="219" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">OUT → volume</text>
+<circle cx="550" cy="275" r="3" fill="#222"/>
+<polyline points="550,275 558,275 565.833,282 581.5,268 597.167,282 612.833,268 628.5,282 644.167,268 652,275 660,275" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="605" y="263" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">R4 (slope)</text>
+<text x="605" y="297" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111">100k</text>
+<circle cx="660" cy="275" r="3" fill="#222"/>
+<polyline points="660,275 660,293" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="660,301 660,319" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="649,293 671,293" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="649,301 671,301" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="676" y="296" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">C2</text>
+<text x="676" y="309" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">0.1µF</text>
+<polyline points="660,319 660,327 667,329.667 653,335 667,340.333 653,345.667 667,351 653,356.333 660,359 660,367" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="674" y="341" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">BASS 250k</text>
+<text x="674" y="354" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#111">(rheostat)</text>
+<circle cx="660" cy="367" r="3" fill="#222"/>
+<polyline points="660,367 660,375 667,377.667 653,383 667,388.333 653,393.667 667,399 653,404.333 660,407 660,415" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="674" y="389" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">MID 10k (Twin) / 6.8k (Deluxe)</text>
+<text x="674" y="402" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#111">(rheostat)</text>
+<polyline points="660,415 660,421" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="650,421 670,421" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="654,425 666,425" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="658,429 662,429" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="660,275 810,275" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="810,275 810,317" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="810,325 810,367" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="799,317 821,317" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="799,325 821,325" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="826" y="320" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">C3</text>
+<text x="826" y="333" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">0.047µF</text>
+<polyline points="810,367 660,367" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="524" y="465" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-style="italic">Insertion loss ≈ -17 dB at the mids with all knobs at 10; deeper scoop as MID is lowered.</text>
+<text x="524" y="498" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#6a8a00" font-weight="700">Treble 250k, Bass 250k audio taper, Mid per amp model.</text>
+<rect x="990" y="70" width="490" height="450" rx="10" fill="#ffffff" stroke="#9aa" stroke-width="1.2"/>
+<text x="1002" y="90" font-family="Helvetica,Arial,sans-serif" font-size="13" text-anchor="start" fill="#234" font-weight="700">③ Volume (+ bright cap) and V1B recovery/gain stage</text>
+<text x="1002" y="170" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">from stack</text>
+<polyline points="1010,180 1010,220" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1010,220 1010,228 1017,236.667 1003,254 1017,271.333 1003,288.667 1017,306 1003,323.333 1010,332 1010,340" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1024" y="320" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">VOLUME</text>
+<text x="1024" y="333" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111">1M audio</text>
+<polyline points="1010,340 1010,346" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1000,346 1020,346" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1004,350 1016,350" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1008,354 1012,354" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1010,220 1040,220" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1040,220 1040,241" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1040,249 1040,270" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1029,241 1051,241" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="1029,249 1051,249" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="1050" y="240" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-weight="700">Cb 120pF</text>
+<text x="1050" y="253" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111">(BRIGHT sw)</text>
+<polyline points="1040,270 1040,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1032,280 1018,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="1018,280 1026,276 1026,284" fill="#222"/>
+<polyline points="1032,280 1052,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="1040" cy="280" r="3" fill="#222"/>
+<polyline points="1288,194 1312,194" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="1300" y="188" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">B+ ≈ 270V</text>
+<polyline points="1300,194 1300,202 1307,204.833 1293,210.5 1307,216.167 1293,221.833 1307,227.5 1293,233.167 1300,236 1300,244" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1314" y="217" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Rp</text>
+<text x="1314" y="230" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">100k</text>
+<circle cx="1300" cy="244" r="3" fill="#222"/>
+<circle cx="1300" cy="280" r="24" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="1300,244 1300,268" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1289,268 1311,268" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="1289,280 1294,280" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1298,280 1303,280" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1307,280 1311,280" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1264,280 1289,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1289,292 1311,292" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="1300,292 1300,316" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1330" y="278" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">V1B</text>
+<text x="1330" y="291" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#555">12AX7</text>
+<polyline points="1300,244 1300,244" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1300,244 1340,244" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1340,244 1351,244" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1359,244 1370,244" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1351,233 1351,255" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="1359,233 1359,255" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="1370,244 1410,244" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1412" y="240" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">to PI</text>
+<circle cx="1300" cy="316" r="3" fill="#222"/>
+<polyline points="1300,316 1300,324 1307,326.333 1293,331 1307,335.667 1293,340.333 1307,345 1293,349.667 1300,352 1300,360" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1314" y="336" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Rk</text>
+<text x="1314" y="349" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">1.5k</text>
+<polyline points="1300,360 1300,366" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1290,366 1310,366" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1294,370 1306,370" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1298,374 1302,374" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1300,322 1336,322" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1336,322 1336,335" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1336,343 1336,356" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1325,335 1347,335" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="1325,343 1347,343" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="1316" y="333" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">+</text>
+<text x="1352" y="338" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Ck</text>
+<text x="1352" y="351" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">25µF</text>
+<polyline points="1336,356 1300,356" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1264,280 1238,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1192,280 1200,280 1202.5,287 1207.5,273 1212.5,287 1217.5,273 1222.5,287 1227.5,273 1230,280 1238,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1215" y="268" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">Rg 10k</text>
+<polyline points="1238,280 1238,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="1192" cy="280" r="3" fill="#222"/>
+<polyline points="1192,280 1192,288 1199,290.5 1185,295.5 1199,300.5 1185,305.5 1199,310.5 1185,315.5 1192,318 1192,326" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1206" y="300" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">RL 1M</text>
+<polyline points="1192,326 1192,332" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1182,332 1202,332" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1186,336 1198,336" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1190,340 1194,340" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1192,280 1152,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1112,280 1128,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1136,280 1152,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1128,269 1128,291" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="1136,269 1136,291" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="1132" y="264" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">Cc</text>
+<text x="1132" y="306" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111">22nF</text>
+<text x="1108" y="274" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="end" fill="#111" font-weight="700"></text>
+<polyline points="1052,280 1112,280" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<rect x="20" y="540" width="470" height="450" rx="10" fill="#ffffff" stroke="#9aa" stroke-width="1.2"/>
+<text x="32" y="560" font-family="Helvetica,Arial,sans-serif" font-size="13" text-anchor="start" fill="#234" font-weight="700">③ Reverb + tremolo (block level)</text>
+<rect x="60" y="580" width="390" height="44" rx="6" fill="#eef3f8" stroke="#222" stroke-width="1.4"/>
+<text x="255" y="606" font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="middle" fill="#111" font-weight="700">V1B plate (signal)</text>
+<rect x="60" y="660" width="390" height="50" rx="6" fill="#eef3f8" stroke="#222" stroke-width="1.4"/>
+<text x="255" y="681" font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="middle" fill="#111" font-weight="700">Reverb driver 12AT7 → transformer</text>
+<text x="255" y="697" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="middle" fill="#444">drives spring-tank input coil</text>
+<rect x="60" y="746" width="390" height="50" rx="6" fill="#eef3f8" stroke="#222" stroke-width="1.4"/>
+<text x="255" y="767" font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="middle" fill="#111" font-weight="700">Spring tank (2 springs, ~2.4 s)</text>
+<text x="255" y="783" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="middle" fill="#444">dispersive delay ≈ 33 ms and 38 ms</text>
+<rect x="60" y="832" width="390" height="50" rx="6" fill="#eef3f8" stroke="#222" stroke-width="1.4"/>
+<text x="255" y="853" font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="middle" fill="#111" font-weight="700">Recovery 12AX7 → REVERB pot</text>
+<text x="255" y="869" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="middle" fill="#444">wet signal mixed back in</text>
+<rect x="60" y="912" width="390" height="44" rx="6" fill="#f6efe2" stroke="#222" stroke-width="1.4"/>
+<text x="255" y="930" font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="middle" fill="#111" font-weight="700">Optical tremolo ("vibrato")</text>
+<text x="255" y="946" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="middle" fill="#444">lamp + LDR modulates level, 1.5–10.5 Hz</text>
+<polyline points="255,624 255,660" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="250,654 260,654 255,662" fill="#222"/>
+<polyline points="255,710 255,746" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="250,740 260,740 255,748" fill="#222"/>
+<polyline points="255,796 255,832" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="250,826 260,826 255,834" fill="#222"/>
+<polyline points="255,882 255,918" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="250,912 260,912 255,920" fill="#222"/>
+<rect x="510" y="540" width="970" height="450" rx="10" fill="#ffffff" stroke="#9aa" stroke-width="1.2"/>
+<text x="522" y="560" font-family="Helvetica,Arial,sans-serif" font-size="13" text-anchor="start" fill="#234" font-weight="700">④ Phase inverter, push-pull output stage, output transformer, NFB</text>
+<polyline points="668,640 692,640" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="680" y="634" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">B+ 285V</text>
+<polyline points="620,640 740,640" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="620,640 620,660" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="620,660 620,668 627,670.833 613,676.5 627,682.167 613,687.833 627,693.5 613,699.167 620,702 620,710" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="634" y="683" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Ra</text>
+<text x="634" y="696" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">82k</text>
+<circle cx="620" cy="762" r="24" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="620,726 620,750" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="609,750 631,750" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="609,762 614,762" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="618,762 623,762" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="627,762 631,762" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="584,762 609,762" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="609,774 631,774" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="620,774 620,798" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="650" y="760" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">PI-A</text>
+<text x="650" y="773" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#555">12AX7</text>
+<polyline points="620,710 620,726" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="620,798 620,822" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="740,640 740,660" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="740,660 740,668 747,670.833 733,676.5 747,682.167 733,687.833 747,693.5 733,699.167 740,702 740,710" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="754" y="683" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Rb</text>
+<text x="754" y="696" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">82k</text>
+<circle cx="740" cy="762" r="24" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="740,726 740,750" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="729,750 751,750" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="729,762 734,762" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="738,762 743,762" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="747,762 751,762" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="704,762 729,762" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="729,774 751,774" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="740,774 740,798" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="770" y="760" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">PI-B</text>
+<text x="770" y="773" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#555">12AX7</text>
+<polyline points="740,710 740,726" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="740,798 740,822" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="620,822 740,822" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="680" cy="822" r="3" fill="#222"/>
+<polyline points="680,822 680,830 687,832 673,836 687,840 673,844 687,848 673,852 680,854 680,862" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="694" y="840" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">Rtail</text>
+<text x="694" y="853" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111">≈ 56k</text>
+<polyline points="680,862 680,868" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="670,868 690,868" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="674,872 686,872" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="678,876 682,876" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="550,762 584,762" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="546" y="766" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="end" fill="#111" font-weight="700">in</text>
+<polyline points="704,762 710,762" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="700" y="630" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#111"></text>
+<text x="750" y="798" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#a33" font-weight="700">← NFB enters here</text>
+<circle cx="620" cy="716" r="3" fill="#222"/>
+<text x="624" y="730" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-weight="700">to V3</text>
+<circle cx="740" cy="716" r="3" fill="#222"/>
+<text x="744" y="730" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-weight="700">to V4</text>
+<circle cx="900" cy="762" r="26" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="900,724 900,748" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="889,748 911,748" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="889,758 893,758" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="897,758 901,758" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="905,758 909,758" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="889,766 893,766" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="897,766 901,766" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="905,766 909,766" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="862,766 889,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="911,758 938,758" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="889,776 911,776" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="900,776 900,800" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="932" y="784" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">V3 ×2</text>
+<text x="932" y="797" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#555">6L6GC/6V6</text>
+<polyline points="796,766 813,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="821,766 838,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="813,755 813,777" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="821,755 821,777" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="817" y="750" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">0.1µF</text>
+<polyline points="838,766 862,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="838" cy="766" r="3" fill="#222"/>
+<polyline points="838,766 838,774 845,775.667 831,779 845,782.333 831,785.667 845,789 831,792.333 838,794 838,802" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="842" y="792" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111">220k</text>
+<text x="842" y="820" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-weight="700">-46V bias</text>
+<polyline points="838,802 838,810" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="900,800 900,806" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="890,806 910,806" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="894,810 906,810" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="898,814 902,814" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="1050" cy="762" r="26" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="1050,724 1050,748" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1039,748 1061,748" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="1039,758 1043,758" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1047,758 1051,758" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1055,758 1059,758" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1039,766 1043,766" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1047,766 1051,766" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1055,766 1059,766" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1012,766 1039,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1061,758 1088,758" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1039,776 1061,776" fill="none" stroke="#222" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="1050,776 1050,800" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1082" y="784" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">V4 ×2</text>
+<text x="1082" y="797" font-family="Helvetica,Arial,sans-serif" font-size="10" text-anchor="start" fill="#555">6L6GC/6V6</text>
+<polyline points="946,766 963,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="971,766 988,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="963,755 963,777" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="971,755 971,777" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="967" y="750" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">0.1µF</text>
+<polyline points="988,766 1012,766" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="988" cy="766" r="3" fill="#222"/>
+<polyline points="988,766 988,774 995,775.667 981,779 995,782.333 981,785.667 995,789 981,792.333 988,794 988,802" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="992" y="792" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111">220k</text>
+<text x="992" y="820" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-weight="700">-46V bias</text>
+<polyline points="988,802 988,810" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1050,800 1050,806" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1040,806 1060,806" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1044,810 1056,810" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1048,814 1052,814" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 1240 700 a 15 15 0 0 1 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1240 730 a 15 15 0 0 1 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1240 760 a 15 15 0 0 1 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1240 790 a 15 15 0 0 1 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1240 820 a 15 15 0 0 1 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1274 700 a 15 15 0 0 0 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1274 730 a 15 15 0 0 0 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1274 760 a 15 15 0 0 0 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1274 790 a 15 15 0 0 0 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<path d="M 1274 820 a 15 15 0 0 0 0 30" fill="none" stroke="#222" stroke-width="1.8"/>
+<polyline points="1255,700 1255,850" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1259,700 1259,850" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="900,724 900,632 1240,632 1240,700" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1050,724 1050,652 1170,652 1170,886 1240,886 1240,850" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1240,775 1204,775" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1192,775 1216,775" fill="none" stroke="#222" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="1204" y="769" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">B+ (CT)</text>
+<text x="1234" y="622" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="start" fill="#111" font-weight="700">OT  Zpp 2k (Twin) / 8k</text>
+<polyline points="1274,700 1336,700 1336,724" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<rect x="1316" y="724" width="40" height="64" rx="4" fill="#fff" stroke="#222" stroke-width="1.8"/>
+<text x="1336" y="762" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">SPKR</text>
+<text x="1336" y="776" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="middle" fill="#111">4 Ω / 8 Ω</text>
+<polyline points="1336,788 1336,850 1274,850" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1336,850 1336,856" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1326,856 1346,856" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1330,860 1342,860" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1334,864 1338,864" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="1336" cy="700" r="3" fill="#222"/>
+<polyline points="1336,700 1336,670 1370,670" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="1370,670 1378,670 1380.83,677 1386.5,663 1392.17,677 1397.83,663 1403.5,677 1409.17,663 1412,670 1420,670" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="1395" y="658" font-family="Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle" fill="#111" font-weight="700">820Ω</text>
+<text x="1300" y="592" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#a33" font-weight="700">NFB ≈ 6 dB (820Ω into PI)</text>
+<text x="1300" y="606" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#a33">(820Ω back to PI-B grid)</text>
+<text x="530" y="950" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-style="italic">Twin: 4×6L6GC (two per side), SS rectifier, 85 W.  Deluxe: 2×6V6, 22 W.  Bias is fixed (negative supply), screens ≈ B+.</text>
+<text x="530" y="968" font-family="Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="start" fill="#111" font-style="italic">Output transformer centre-tap B+: 440 V (Twin) / 420 V (Deluxe)</text>
+</svg>
